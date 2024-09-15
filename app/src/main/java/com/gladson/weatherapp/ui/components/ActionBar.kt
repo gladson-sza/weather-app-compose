@@ -124,12 +124,15 @@ private fun LocationInfo(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.spacedBy(4.dp)
     ){
-        Row {
+        Row (
+            horizontalArrangement = Arrangement.spacedBy(8.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
             Image(
                 painter = painterResource(R.drawable.ic_location_pin),
                 contentDescription = null,
+                modifier = Modifier.height(18.dp),
                 contentScale = ContentScale.FillHeight,
-                modifier = Modifier.height(18.dp)
             )
             Text(
                 text = location,

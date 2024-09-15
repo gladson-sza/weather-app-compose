@@ -1,13 +1,7 @@
 package com.gladson.weatherapp.ui.util
 
-import androidx.annotation.DrawableRes
 import com.gladson.weatherapp.R
-
-data class AirQualityItem(
-    @DrawableRes val icon: Int,
-    val title: String,
-    val value: String
-)
+import com.gladson.weatherapp.data.model.AirQualityItem
 
 val AirQualityData = listOf(
     AirQualityItem(
