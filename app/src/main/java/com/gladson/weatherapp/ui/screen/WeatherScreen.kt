@@ -10,6 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.gladson.weatherapp.ui.components.ActionBar
+import com.gladson.weatherapp.ui.components.AirQuality
 import com.gladson.weatherapp.ui.components.DailyForecast
 import com.gladson.weatherapp.ui.theme.ColorBackground
 
@@ -33,6 +34,10 @@ fun WeatherScreen() {
                 modifier = Modifier.height(12.dp)
             )
             DailyForecast()
+            Spacer(
+                modifier = Modifier.height(16.dp)
+            )
+            AirQuality()
         }
 
     }
