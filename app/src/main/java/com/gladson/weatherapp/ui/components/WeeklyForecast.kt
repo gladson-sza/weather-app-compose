@@ -1,6 +1,5 @@
 package com.gladson.weatherapp.ui.components
 
-import android.widget.Space
 import androidx.annotation.DrawableRes
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
